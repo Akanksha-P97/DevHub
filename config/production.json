@@ -1,8 +1,8 @@
 {
-    "mongoURI": "mongodb+srv://Akanksha:cool@devconnector-9udkp.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "mysecrettoken",
-    "githubclientId": "869991555c3fcb7be909",
-    "githubSecret": "bca673166d61de313a1eb71291a29451e5d3faa9"
+    "mongoURI": "",
+    "jwtSecret": "",
+    "githubclientId": "",
+    "githubSecret": ""
 
     
 }
