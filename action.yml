@@ -1,0 +1,13 @@
+name: DevHub
+description: ' It is a MERN stack based social network app that includes authentication, profiles and forum posts '
+author: 'Akanksha Pandey'
+branding:
+  icon: message-square  
+  color: green
+  inputs:
+   user-id:
+     description: 'User ID to login'
+    required: true  
+  runs:
+  using: 'node12'
+  main: 'index.js'
