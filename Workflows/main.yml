@@ -1,0 +1,15 @@
+name: DevHub
+
+on: [push]
+
+jobs:
+ Devhub_job:
+   runs-on: ubuntu-latest
+   name: Devhub
+   steps:
+   - name: MERN stack based social network app 
+     uses: actions/checkout@v2
+     with: 
+      "mongoURI": "<your_mongoDB_Atlas_uri_with_credentials>",
+      "jwtSecret": "secret",
+      "githubToken": "<yoursecrectaccesstoken>"
